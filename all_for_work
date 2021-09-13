@@ -4,3 +4,9 @@ git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.di diff
+
+Удаление локальной ветви:
+git branch -D <branch-name>
+
+Удалить ветку в удалённом репозитории:
+git push origin --delete dev_sasha
