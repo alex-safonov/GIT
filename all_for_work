@@ -13,7 +13,7 @@ git config --global alias.di diff
 git branch -D <branch-name>
 
 Удалить ветку в удалённом репозитории:
-git push origin --delete dev_sasha
+git push origin --delete <branch-name>
 
 git add -A этапы Все (включая новые файлы, измененные и удаленные)
 git add . этапов новые и измененные, без удаления
@@ -22,3 +22,10 @@ git add -u этапы изменены и удалены, без новых
 Слияние style в master
 git checkout master
 git merge style
+
+Принудительное обновление
+git push <remote> --force
+
+Отмена на предыдущее состояние
+git reset --hard 
+git reset --hard <хеш локального коммита, в который вливался task1234>
