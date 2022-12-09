@@ -3,6 +3,7 @@ git config --global user.name "Your Name" # указать имя, которы�
 git config --global user.email "e@w.com"  # указать электропочту, которая будет в описании коммитера
 
 Алиасы (псевдонимы) для удобства:
+git config --global alias.l log
 git config --global alias.st status
 git config --global alias.co checkout
 git config --global alias.br branch
