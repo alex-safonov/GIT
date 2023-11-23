@@ -55,3 +55,6 @@ git log --oneline
 
 Просмотр списка файлов коммита:
 git log --name-status
+
+Удаление и переименование удалённых репозиториев:
+git remote rename oldname newname
